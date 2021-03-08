@@ -1,0 +1,33 @@
+
+                              ______________________________
+ ____________________________| FLASH BOOTLOADER FOR ARDUINO |____________________________
+|                                                                                        |
+| Il se peut que la carte Arduino se brique. Tant qu'elle s'allume,                      |
+| il est toujours possible de la flasher.                                                |
+|                                                                                        |
+| Fonctionne avec MEGA2560, UNO, NANO                                                    |
+|                                                                                        |
+| Pour ce faire, il existe une solution en utilisant une autre carte Arduino.            |
+| Après avoir regarder de le schéma de connexion, il faut suivre les étapes suivantes :  |
+|                                                                                        |
+|                                                                                        |
+|   1. Lancer l'IDE Arduino                                                              |
+|                                                                                        |
+|   2. Aller dans l'onglet : Fichier -> Exemples -> ArduinoISP -> ArduinoISP             |
+|                                                                                        |
+|   3. Choisir le type de carte du programmeur : Outils -> Type de carte -> Arduino Uno  |
+|                                                                                        |
+|   4. Si besoin, choisir le port de communication : Outils -> Port                      |
+|                                                                                        |
+|   5. Choisir le programmateur : Programmateur -> Arduino as ISP                        |
+|                                                                                        |
+|   6. Uploader le programme dans le programmeur                                         |
+|                                                                                        |
+|   7. Choisir le type de carte de la cible : Outils -> Type de carte -> Uno ou Nano     |
+|                                                                                        |
+|   8. Flasher la cible : Outils -> Graver la séquence d'initialisation                  |
+|                                                                                        |
+|                                                                                        |
+| Voilà, la cible est flashé et de nouveau opérationnelle.                               |
+| Pour le vérifier, il suffit de lui envoyer un test de Blink de LED.                    |
+|________________________________________________________________________________________|
