@@ -26,7 +26,6 @@ void setup()
 void loop()
 {
     digitActivity.letsPlay();
-    //digitActivity.test();
 }
 ///////////////////////////////// STOP PROGRAM ////////////////////////////////
 /*--- TessBarAnn ---*/
