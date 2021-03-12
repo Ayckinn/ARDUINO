@@ -37,30 +37,30 @@ void DisplayRC522FirmwareVersion()
 {
 	// Get the RC522 firmware version
 	byte firmware_version = rc522.PCD_ReadRegister(rc522.VersionReg);
-	
-  Serial.print(F("RC522 Firmware Version : 0x"));
+
+	Serial.print(F("RC522 Firmware Version : 0x"));
 	Serial.print(firmware_version, HEX);
 
-  //-- Check version
+	//-- Check version
 	if (firmware_version == 0x91)
-  {
-      Serial.print(F(" = v1.0"));
-  }
+	{
+	  	Serial.print(F(" = v1.0"));
+	}
 	else if (firmware_version == 0x92)
-  {
-      Serial.print(F(" = v2.0"));
-  }
+	{
+	  	Serial.print(F(" = v2.0"));
+	}
 	else
-  {
-      Serial.println(F(" (Unknown)"));
-  }
+	{
+	  	Serial.println(F(" (Unknown)"));
+	}
 
 	// If 0x00 or 0xFF is returned, communication probably failed
 	if ((firmware_version == 0x00) || (firmware_version == 0xFF))
-  {
-      Serial.println(F("---------------------------------------"));
-      Serial.println(F("WARNING: Communication failure !"));
-      Serial.println(F("Please, make sure the RC522 is connected..."));
+	{
+		Serial.println(F("---------------------------------------"));
+		Serial.println(F("WARNING: Communication failure !"));
+		Serial.println(F("Please, make sure the RC522 is connected..."));
 	}
 }
 /*---------------------------------------------------------------------------*/
