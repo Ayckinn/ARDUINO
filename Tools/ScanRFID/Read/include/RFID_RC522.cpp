@@ -94,17 +94,12 @@ void RFID_RC522::DumpModule()
 
     Serial.println("\n=== RFID MODULE DETECTED : DETAILS ===\n");
 
-    //
-
-    // delay(500);
-
     DisplayHexUID();
     DisplayIntUID();
     DisplayProductModel();
     DisplaySAK();
     DisplayManufacturer();
     DisplayHexaTable();
-    //rc522.PICC_DumpToSerial(&(rc522.uid));
     DisplayDumpReadError();
 
     Serial.println(F("\n\n--------------------------------------"));
@@ -185,7 +180,7 @@ void RFID_RC522::DisplayHexaTable()
 			break; // No memory dump here
     }
     rc522.PICC_HaltA();
-    //rc522.PCD_StopCrypto1();
+    rc522.PCD_StopCrypto1();
 }
 
 /*---------------------------------------------------------------------------*/

@@ -5,7 +5,7 @@
 || VERSION   : 1.0
 ||
 || ========================= WHAT THE PROGRAM'S DOING =========================
-|| Allows to get UID from NFC module
+|| Get and Read UID infos from NFC module
 */
 ////////////////////////////////// LIBRARIES //////////////////////////////////
 #include <Arduino.h>

@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/include",
-                "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/src",
+                "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/include",
+                "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/src",
                 "/home/ayckinn/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/.pio/libdeps/uno/MFRC522/src",
+                "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/.pio/libdeps/uno/MFRC522/src",
                 "/home/ayckinn/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/home/ayckinn/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/home/ayckinn/.platformio/packages/framework-arduino-avr/variants/standard",
@@ -24,10 +24,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/include",
-                    "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/src",
+                    "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/include",
+                    "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/src",
                     "/home/ayckinn/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                    "/media/ayckinn/ELOISE/MEGA/ARDUINO/TOOLS/Read_RFID/.pio/libdeps/uno/MFRC522/src",
+                    "/media/ayckinn/ELOISE/GIT/ARDUINO/Tools/ScanRFID/Read/.pio/libdeps/uno/MFRC522/src",
                     "/home/ayckinn/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/home/ayckinn/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/home/ayckinn/.platformio/packages/framework-arduino-avr/variants/standard",

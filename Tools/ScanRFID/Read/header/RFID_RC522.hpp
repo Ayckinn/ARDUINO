@@ -63,8 +63,6 @@ class RFID_RC522
 
         MFRC522::PICC_Type hexaPiccType;
         MFRC522::PICC_Type dumpPiccType;
-        // String home_tag_int = "57 112 250 191";
-        // String home_tag_hex = "39 70 FA BF";
 
 
     public:
