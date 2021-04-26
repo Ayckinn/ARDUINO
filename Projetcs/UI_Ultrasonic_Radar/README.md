@@ -1,12 +1,12 @@
-# ELECTRONIC DIE
+# ULTRASONIC RADAR
 
 ### DEMO ON YOUTUBE
 Click on the pic to see the demo
 
 <div align="center">
-    <a href="https://youtu.be/RJdCxxIPowE">
+    <a href="https://www.youtube.com/watch?v=ymzVakbeoWk">
         <img
-        src="https://img.youtube.com/vi/RJdCxxIPowE/0.jpg"
+        src="https://i9.ytimg.com/vi/ymzVakbeoWk/mq3.jpg?sqp=CODDmoQG&rs=AOn4CLCBOg97jNF-UchYOY7dB_u30o3bNg"
         alt="DEMO"
         style="width:50%">
     </a>
@@ -14,22 +14,27 @@ Click on the pic to see the demo
 
 ---
 ### ITEMS
-- **PCB** : [Blank double face PCB](https://www.amazon.fr/dp/B07DBY1VHY/?coliid=I9J9PGUX4IEYH&colid=3JALL4INSEMQD&psc=0&ref_=lv_ov_lig_dp_it)
+- **Arduino UNO** : [Arduino Uno v3.0 ATmega328P ATmega16U2](https://www.amazon.fr/Elegoo-ATmega328P-ATMEGA16U2-Controller-Microcontr%C3%B4leur/dp/B01N91PVIS/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=arduino+uno&qid=1619436845&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWERWUEhPVjVZSkJSJmVuY3J5cHRlZElkPUEwODQwODMyMlJGNU5JT1kyNUM1QSZlbmNyeXB0ZWRBZElkPUEwODk5MzQ3M0NOVVdJTUtKUUpCUiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 
-- **Controller** : [Arduino Nano V3.0 ATmega328P](https://www.amazon.fr/dp/B072LPHG92/?coliid=I3C2PNRP41ALC2&colid=3JALL4INSEMQD&psc=1&ref_=lv_ov_lig_dp_it)
+- **Servo** : [SG90](https://www.amazon.fr/AZDelivery-SG90-Micro-Moteur-Robots-hubchrauber/dp/B07CYZSVKW/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=sg90&qid=1619436896&sr=8-6&th=1)
 
-- **Display** : [7 segments](https://www.amazon.fr/dp/B07CLCC82N/?coliid=I3C8PB53DM4ZGA&colid=3JALL4INSEMQD&psc=1&ref_=lv_ov_lig_dp_it)
-
-- **Resistors** : [220Ω (x1) & 10kΩ (x1) ](https://www.amazon.fr/dp/B075ZN78JZ/?coliid=IDSO1GQNLDBCY&colid=3JALL4INSEMQD&psc=1&ref_=lv_ov_lig_dp_it)
-
-- **Button** : [Push button](https://www.amazon.fr/SODIAL-bouton-poussoir-interrupteur-6x6x7mm-momentane/dp/B00H3CVRGY/ref=sr_1_13?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=bouton+poussoir+arduino&qid=1615240537&sr=8-13)
+- **Ultrasonic module** : [HC-SR04](https://www.amazon.fr/ELEGOO-Ultrason-Distance-MEGA2560-Ultrasonic/dp/B06XSJPVW9/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=K21FYTK1DDKC&dchild=1&keywords=hc-sr04&qid=1619436992&sprefix=hc%2Caps%2C172&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySTYxQk0xTUdQSlhLJmVuY3J5cHRlZElkPUEwNjAwMDg1MjhIOUhXSDlTSE1JMyZlbmNyeXB0ZWRBZElkPUEwNDgwNjA0MzZJTlFLRURORVlQQyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 
 ---
+### SOFTWARES
+- **For Arduino** : [VSCode](https://code.visualstudio.com/Download) (With the PlatformIO plugin for upload program into the board)
+- **For GUI** : [Processing](https://processing.org/tutorials/p3d/)
+---
 ### HOW TO USE IT
-Push the button and the die will show a random number
+- NOTE : This program has been coded with VSCode and the platformIO pluging for the communication with the Arduino board
+- Upload the program in the ```[src]``` folder into the Arduino with platforIO
+- Lauch ```[Processing]``` software
+- Open the program in the ```[src -> ui]``` folder
+- Click on play
+- Enjoy :)
 
 ---
 ### CHANGELOG
-Version 1.0 : March 8' 2021
+Version 1.0 : April 26' 2021
 
     - Initial release
