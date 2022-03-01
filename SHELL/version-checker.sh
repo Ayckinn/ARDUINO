@@ -33,7 +33,7 @@ echo "         >> /usr/lib/update-notifier/apt-check -p"
 echo ""
 
 echo "    +-------------------------------------------------+"
-echo "    |          </SYSTEM'S INSTALLED COMMANDS>         |"
+echo "    |               </SYSTEM'S COMMANDS>              |"
 echo "    +-------------------------------------------------+"
 if [ -x /usr/bin/apt ] 
 	then echo "       >>                apt | $(apt -v             | cut -d " " -f2)";
